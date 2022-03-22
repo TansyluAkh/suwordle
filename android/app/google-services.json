@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "859094347771",
+    "project_id": "sabanciwordle",
+    "storage_bucket": "sabanciwordle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859094347771:android:257954ca7383e3c540e55e",
+        "android_client_info": {
+          "package_name": "com.example.sabanciwordle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859094347771-0ou2sml7hf5l1u450v5k8er89ovi0ket.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxKSSV5QfBLw4M0PPFTeUtfJHx7EEdeJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859094347771-0ou2sml7hf5l1u450v5k8er89ovi0ket.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

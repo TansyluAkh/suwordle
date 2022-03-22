@@ -1,13 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:sabanciwordle/login.dart';
 
-import 'game.dart';
-
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({Key key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.indigo,
         fontFamily: 'Montserrat',
       ),
-      home: Spelling(items: {'ашказаны': 'https://urban.tatar/bebkeler/tatar/keshe/ashkazany.m4a', 'бавыр': 'https://urban.tatar/bebkeler/tatar/keshe/bavyr.m4a', 'бөер': 'https://urban.tatar/bebkeler/tatar/keshe/boer.m4a', 'йөрәк': 'https://urban.tatar/bebkeler/tatar/keshe/jorak.m4a'}, tatcategory: 'бу',),
+      home: LoginPage()
     );
   }
 }
